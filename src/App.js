@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './widgets/Navbar';
 import ProfilePage from './widgets/ProfilePage';

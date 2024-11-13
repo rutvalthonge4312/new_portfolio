@@ -53,7 +53,7 @@ function ProfilePage() {
                 {/* Image Section */}
                 <div className="col-lg-6 col-md-12 d-flex justify-content-center my-4 my-lg-0">
                     <div data-aos="fade-up" className="image-section">
-                        <img src={myphoto} className="img-fluid rounded" alt="user photo" />
+                        <img src={myphoto} className="img-fluid rounded"  />
                     </div>
                 </div>
             </div>

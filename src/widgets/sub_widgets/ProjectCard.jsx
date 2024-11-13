@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ProjectCard.css';
-import foodProject from "../../images/foodproject.jpeg"
+// import foodProject from "../../images/foodproject.jpeg"
 
 function ProjectCard(props) {
   const [hovered, setHovered] = useState(false);

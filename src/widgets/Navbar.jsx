@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-    const handleClick = () => setNav(!nav);
+    // const handleClick = () => setNav(!nav);
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark">

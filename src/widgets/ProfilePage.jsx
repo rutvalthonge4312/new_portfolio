@@ -1,6 +1,7 @@
 import React from 'react';
 import myphoto from "../images/myphoto.png";
 // import './ProfilePage.css';
+import resume from "../documents/Rutval_Bharat_Thonge_Resume.pdf"
 
 function ProfilePage() {
     return (
@@ -39,7 +40,7 @@ function ProfilePage() {
                         {/* Download CV Button */}
                         <div className="mt-4">
                             <a
-                                href="/path-to-your-cv.pdf"
+                                href={resume}
                                 download
                                 className="btn btn-info text-white px-5 py-2 mt-3 rounded"
                             >
